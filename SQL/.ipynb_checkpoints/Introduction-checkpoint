@@ -1,0 +1,44 @@
+In this article series we are going to look at my journey of learning SQL as an aspiring data analyst. Before I started self learning SQL, I already had some exposure to SQL and databases during my university days, but that was nearly a decade ago and since then I haven’t practiced SQL at all. So this is me sort of relearning SQL, adding more and more required skills to become a data scientist.
+
+Before we get into SQL, I think we should talk about databases first.
+
+There are two types of databases. Relational databases and Non-relational databases. Relational databases organize the data into structured tables consisting of rows (records) and columns (fields/ attributes). Examples of relational databases are MySQL, PostgreSQL, SQL Server, SQLite. If you have an E-commerce system and you want to store your data or a banking system can be examples for relational databases.
+
+Non-relational databases don’t have any structured tables. Data could be stored as key value pairs, documents or graphs. Some use cases are social media, IoT data and real time data. MongoDB, Cassandra, DynamoDB are some examples of non-relational databases. Non relational databases are also called NoSQL databases.
+
+As we can see from the above descriptions, it is evident that SQL deals with relational databases. So what is SQL?
+
+SQL, or Structured Query Language, is a standardized programming language designed to manage and interact with relational databases. 
+There are a few basic SQL concepts that we must know,
+
+Tables - A structured set of data with rows and columns.
+
+Example: A Users table with columns like id, name, and email
+
+Rows - Individual records in a table.
+
+Example: One row in a Users table might represent a single user.
+
+Columns - Define the attributes of the table
+
+Example: The column email in the Users table stores email addresses.
+
+Relationships - Connect tables to one another.
+
+One-to-Many: A customer can have multiple orders.
+
+Many-to-Many: Students enrolled in multiple courses.
+
+There are a few SQL tools that are readily available for us to use. These are some of the most commonly used SQL tools,
+
+MySQL: Widely used open-source relational database.
+
+PostgreSQL: Powerful, open-source relational database with advanced features.
+
+SQL Server: Microsoft's relational database platform.
+
+SQLite: Lightweight database often used for mobile applications.
+
+I started with MySQL and SQLite because both are open source and beginner friendly. So throughout the series you might see both these databases being used.
+
+
